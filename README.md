@@ -13,3 +13,10 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+** included etherscan verify **
+
+```shell
+yarn add -D @nomiclabs/hardhat-etherscan
+```
+Verify onchain
+npx hardhat verify --network kovan Deployed_address "Hello, Hardhat"
